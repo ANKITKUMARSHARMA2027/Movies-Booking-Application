@@ -18,7 +18,6 @@ const isAdminRoute=useLocation().pathname.startsWith('/admin')
 
 <Toaster />
 
-
   {!isAdminRoute &&  <Navbar/>}
    <Routes>
 <Route path='/' element={<Home/>}/>
